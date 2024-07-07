@@ -1,0 +1,1181 @@
+Archive member included to satisfy reference by file (symbol)
+
+h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+                              objdir-CWLITEXMEGA/simpleserial-base.o (__divmodhi4)
+h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+                              h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o (exit)
+h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+                              objdir-CWLITEXMEGA/simpleserial-base.o (__do_copy_data)
+h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+                              objdir-CWLITEXMEGA/simpleserial-base.o (__do_clear_bss)
+h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+                              h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o) (__udivmodhi4)
+h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+                              objdir-CWLITEXMEGA/simpleserial-base.o (malloc)
+h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(rand.o)
+                              objdir-CWLITEXMEGA/simpleserial-base.o (rand)
+h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(memcpy.o)
+                              objdir-CWLITEXMEGA/simpleserial-base.o (memcpy)
+h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(memset.o)
+                              objdir-CWLITEXMEGA/simpleserial-base.o (memset)
+h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+                              h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(rand.o) (__divmodsi4)
+h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+                              h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o) (__negsi2)
+h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+                              h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(rand.o) (__muluhisi3)
+h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+                              h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(rand.o) (__mulohisi3)
+h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+                              h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o) (__udivmodsi4)
+h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+                              h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o) (__umulhisi3)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000100000 xr
+data             0x0000000000802000 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000006 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+LOAD objdir-CWLITEXMEGA/simpleserial-base.o
+LOAD objdir-CWLITEXMEGA/simpleserial.o
+LOAD objdir-CWLITEXMEGA/XMEGA_AES_driver.o
+LOAD objdir-CWLITEXMEGA/uart.o
+LOAD objdir-CWLITEXMEGA/usart_driver.o
+LOAD objdir-CWLITEXMEGA/xmega_hal.o
+LOAD h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libm.a
+START GROUP
+LOAD h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a
+LOAD h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libm.a
+LOAD h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a
+LOAD h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libatxmega128d3.a
+END GROUP
+                0x0000000000100000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x100000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000006]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x1466
+ *(.vectors)
+ .vectors       0x0000000000000000      0x1c8 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+                0x0000000000000000                __vector_default
+                0x0000000000000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000000000001c8                . = ALIGN (0x2)
+                0x00000000000001c8                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000000000001c8       0x14 linker stubs
+ *(.trampolines*)
+                0x00000000000001dc                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem.*)
+                0x00000000000001dc                . = ALIGN (0x2)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000000000001dc                __ctors_start = .
+ *(.ctors)
+                0x00000000000001dc                __ctors_end = .
+                0x00000000000001dc                __dtors_start = .
+ *(.dtors)
+                0x00000000000001dc                __dtors_end = .
+ SORT_BY_NAME(*)(.ctors)
+ SORT_BY_NAME(*)(.dtors)
+ *(.init0)
+ .init0         0x00000000000001dc        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+                0x00000000000001dc                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000000000001dc       0x10 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000000000001ec       0x1a h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+                0x00000000000001ec                __do_copy_data
+ .init4         0x0000000000000206       0x10 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+                0x0000000000000206                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000000000000216        0x8 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+ *(.init9)
+ *(.text)
+ .text          0x000000000000021e        0x4 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+                0x000000000000021e                __vector_38
+                0x000000000000021e                __vector_104
+                0x000000000000021e                __vector_22
+                0x000000000000021e                __vector_63
+                0x000000000000021e                __vector_28
+                0x000000000000021e                __vector_67
+                0x000000000000021e                __vector_1
+                0x000000000000021e                __vector_32
+                0x000000000000021e                __vector_75
+                0x000000000000021e                __vector_71
+                0x000000000000021e                __vector_91
+                0x000000000000021e                __vector_34
+                0x000000000000021e                __vector_62
+                0x000000000000021e                __vector_77
+                0x000000000000021e                __vector_102
+                0x000000000000021e                __vector_24
+                0x000000000000021e                __vector_12
+                0x000000000000021e                __vector_55
+                0x000000000000021e                __vector_69
+                0x000000000000021e                __vector_81
+                0x000000000000021e                __vector_90
+                0x000000000000021e                __vector_46
+                0x000000000000021e                __bad_interrupt
+                0x000000000000021e                __vector_72
+                0x000000000000021e                __vector_6
+                0x000000000000021e                __vector_110
+                0x000000000000021e                __vector_31
+                0x000000000000021e                __vector_92
+                0x000000000000021e                __vector_35
+                0x000000000000021e                __vector_78
+                0x000000000000021e                __vector_74
+                0x000000000000021e                __vector_39
+                0x000000000000021e                __vector_107
+                0x000000000000021e                __vector_3
+                0x000000000000021e                __vector_105
+                0x000000000000021e                __vector_98
+                0x000000000000021e                __vector_23
+                0x000000000000021e                __vector_68
+                0x000000000000021e                __vector_30
+                0x000000000000021e                __vector_73
+                0x000000000000021e                __vector_45
+                0x000000000000021e                __vector_25
+                0x000000000000021e                __vector_93
+                0x000000000000021e                __vector_61
+                0x000000000000021e                __vector_11
+                0x000000000000021e                __vector_54
+                0x000000000000021e                __vector_99
+                0x000000000000021e                __vector_13
+                0x000000000000021e                __vector_17
+                0x000000000000021e                __vector_19
+                0x000000000000021e                __vector_56
+                0x000000000000021e                __vector_7
+                0x000000000000021e                __vector_49
+                0x000000000000021e                __vector_41
+                0x000000000000021e                __vector_86
+                0x000000000000021e                __vector_100
+                0x000000000000021e                __vector_101
+                0x000000000000021e                __vector_64
+                0x000000000000021e                __vector_88
+                0x000000000000021e                __vector_109
+                0x000000000000021e                __vector_43
+                0x000000000000021e                __vector_27
+                0x000000000000021e                __vector_5
+                0x000000000000021e                __vector_113
+                0x000000000000021e                __vector_33
+                0x000000000000021e                __vector_76
+                0x000000000000021e                __vector_47
+                0x000000000000021e                __vector_52
+                0x000000000000021e                __vector_37
+                0x000000000000021e                __vector_95
+                0x000000000000021e                __vector_103
+                0x000000000000021e                __vector_96
+                0x000000000000021e                __vector_89
+                0x000000000000021e                __vector_108
+                0x000000000000021e                __vector_4
+                0x000000000000021e                __vector_44
+                0x000000000000021e                __vector_82
+                0x000000000000021e                __vector_106
+                0x000000000000021e                __vector_51
+                0x000000000000021e                __vector_9
+                0x000000000000021e                __vector_2
+                0x000000000000021e                __vector_21
+                0x000000000000021e                __vector_15
+                0x000000000000021e                __vector_66
+                0x000000000000021e                __vector_36
+                0x000000000000021e                __vector_79
+                0x000000000000021e                __vector_58
+                0x000000000000021e                __vector_70
+                0x000000000000021e                __vector_83
+                0x000000000000021e                __vector_29
+                0x000000000000021e                __vector_60
+                0x000000000000021e                __vector_40
+                0x000000000000021e                __vector_85
+                0x000000000000021e                __vector_94
+                0x000000000000021e                __vector_8
+                0x000000000000021e                __vector_26
+                0x000000000000021e                __vector_48
+                0x000000000000021e                __vector_112
+                0x000000000000021e                __vector_111
+                0x000000000000021e                __vector_80
+                0x000000000000021e                __vector_14
+                0x000000000000021e                __vector_84
+                0x000000000000021e                __vector_57
+                0x000000000000021e                __vector_53
+                0x000000000000021e                __vector_10
+                0x000000000000021e                __vector_50
+                0x000000000000021e                __vector_16
+                0x000000000000021e                __vector_59
+                0x000000000000021e                __vector_18
+                0x000000000000021e                __vector_97
+                0x000000000000021e                __vector_20
+                0x000000000000021e                __vector_42
+                0x000000000000021e                __vector_87
+                0x000000000000021e                __vector_65
+ .text          0x0000000000000222      0x80e objdir-CWLITEXMEGA/simpleserial-base.o
+                0x0000000000000222                get_key
+                0x000000000000023a                masked_sbox
+                0x0000000000000254                byte2word
+                0x00000000000002a6                word2byte
+                0x00000000000002c8                move
+                0x0000000000000330                func_key
+                0x0000000000000438                func_data
+                0x00000000000005cc                encode_fun
+                0x00000000000009ea                get_pt
+ .text          0x0000000000000a30      0x3ca objdir-CWLITEXMEGA/simpleserial.o
+                0x0000000000000a30                check_version
+                0x0000000000000a34                ss_crc
+                0x0000000000000a64                hex_decode
+                0x0000000000000aee                simpleserial_addcmd_flags
+                0x0000000000000b3a                simpleserial_addcmd
+                0x0000000000000b40                simpleserial_init
+                0x0000000000000b6a                simpleserial_put
+                0x0000000000000bc8                ss_num_commands
+                0x0000000000000bf0                ss_get_commands
+                0x0000000000000c72                simpleserial_get
+ .text          0x0000000000000dfa        0x0 objdir-CWLITEXMEGA/XMEGA_AES_driver.o
+ .text          0x0000000000000dfa       0x86 objdir-CWLITEXMEGA/uart.o
+                0x0000000000000dfa                init_uart0
+                0x0000000000000e22                input_ch_w_timeout_0
+                0x0000000000000e64                input_ch_0
+                0x0000000000000e72                output_ch_0
+ .text          0x0000000000000e80      0x11c objdir-CWLITEXMEGA/usart_driver.o
+                0x0000000000000e80                USART_InterruptDriver_Initialize
+                0x0000000000000e92                USART_InterruptDriver_DreInterruptLevel_Set
+                0x0000000000000e98                USART_TXBuffer_FreeSpace
+                0x0000000000000eac                USART_TXBuffer_PutByte
+                0x0000000000000ee4                USART_RXBufferData_Available
+                0x0000000000000ef4                USART_RXBuffer_GetByte
+                0x0000000000000f0c                USART_RXComplete
+                0x0000000000000f36                USART_DataRegEmpty
+                0x0000000000000f70                USART_NineBits_PutChar
+                0x0000000000000f86                USART_NineBits_GetChar
+ .text          0x0000000000000f9c       0x2c objdir-CWLITEXMEGA/xmega_hal.o
+                0x0000000000000f9c                platform_init
+ .text          0x0000000000000fc8        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+ .text          0x0000000000000fc8        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ .text          0x0000000000000fc8        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+ .text          0x0000000000000fc8        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+ .text          0x0000000000000fc8        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+ .text          0x0000000000000fc8        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+ .text          0x0000000000000fc8        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(rand.o)
+ .text          0x0000000000000fc8        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(memcpy.o)
+ .text          0x0000000000000fc8        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(memset.o)
+ .text          0x0000000000000fc8        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+ .text          0x0000000000000fc8        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+ .text          0x0000000000000fc8        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+ .text          0x0000000000000fc8        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+ .text          0x0000000000000fc8        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000fc8        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+                0x0000000000000fc8                . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x0000000000000fc8       0x34 objdir-CWLITEXMEGA/simpleserial-base.o
+                0x0000000000000fc8                main
+ .text.libgcc.mul
+                0x0000000000000ffc        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+ .text.libgcc.div
+                0x0000000000000ffc       0x28 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+                0x0000000000000ffc                _div
+                0x0000000000000ffc                __divmodhi4
+ .text.libgcc   0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000001024        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x0000000000001024       0x28 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+                0x0000000000001024                __udivmodhi4
+ .text.libgcc   0x000000000000104c        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x000000000000104c        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x000000000000104c        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x000000000000104c        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x000000000000104c        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+ .text.avr-libc
+                0x000000000000104c      0x250 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+                0x000000000000104c                malloc
+                0x0000000000001178                free
+ .text.avr-libc
+                0x000000000000129c       0xe0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(rand.o)
+                0x000000000000135a                rand_r
+                0x000000000000135e                rand
+                0x0000000000001366                srand
+ .text.avr-libc
+                0x000000000000137c       0x12 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(memcpy.o)
+                0x000000000000137c                memcpy
+ .text.avr-libc
+                0x000000000000138e        0xe h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(memset.o)
+                0x000000000000138e                memset
+ .text.libgcc.mul
+                0x000000000000139c        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.div
+                0x000000000000139c       0x2e h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+                0x000000000000139c                __divmodsi4
+ .text.libgcc   0x00000000000013ca        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000000013ca        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000000013ca        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000000013ca        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000000013ca        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x00000000000013ca        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+ .text.libgcc.div
+                0x00000000000013ca       0x10 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+                0x00000000000013ca                __negsi2
+ .text.libgcc   0x00000000000013da        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x00000000000013da        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x00000000000013da        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x00000000000013da        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x00000000000013da        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x00000000000013da       0x16 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+                0x00000000000013da                __muluhisi3
+ .text.libgcc.div
+                0x00000000000013f0        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x00000000000013f0        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x00000000000013f0        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x00000000000013f0        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x00000000000013f0        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x00000000000013f0        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+ .text.libgcc.mul
+                0x00000000000013f0       0x10 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+                0x00000000000013f0                __mulshisi3
+                0x00000000000013f6                __mulohisi3
+ .text.libgcc.div
+                0x0000000000001400        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+ .text.libgcc   0x0000000000001400        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+ .text.libgcc.prologue
+                0x0000000000001400        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+ .text.libgcc.builtins
+                0x0000000000001400        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+ .text.libgcc.fmul
+                0x0000000000001400        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+ .text.libgcc.fixed
+                0x0000000000001400        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+ .text.libgcc.mul
+                0x0000000000001400        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x0000000000001400       0x44 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+                0x0000000000001400                __udivmodsi4
+ .text.libgcc   0x0000000000001444        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000001444        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000001444        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000001444        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000001444        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000001444       0x1e h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+                0x0000000000001444                __umulhisi3
+ .text.libgcc.div
+                0x0000000000001462        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000001462        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000001462        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000001462        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000001462        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000001462        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+                0x0000000000001462                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000001462        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+                0x0000000000001462                _exit
+                0x0000000000001462                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000001462        0x4 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ *(.fini0)
+ *(.hightext)
+ *(.hightext*)
+ *(.progmemx.*)
+                0x0000000000001466                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+                0x0000000000001466                _etext = .
+
+.data           0x0000000000802000      0x1aa load address 0x0000000000001466
+                0x0000000000802000                PROVIDE (__data_start = .)
+ *(.data)
+ .data          0x0000000000802000        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+ .data          0x0000000000802000        0x0 objdir-CWLITEXMEGA/simpleserial-base.o
+ .data          0x0000000000802000        0x0 objdir-CWLITEXMEGA/simpleserial.o
+ .data          0x0000000000802000        0x0 objdir-CWLITEXMEGA/XMEGA_AES_driver.o
+ .data          0x0000000000802000        0x0 objdir-CWLITEXMEGA/uart.o
+ .data          0x0000000000802000        0x0 objdir-CWLITEXMEGA/usart_driver.o
+ .data          0x0000000000802000        0x0 objdir-CWLITEXMEGA/xmega_hal.o
+ .data          0x0000000000802000        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+ .data          0x0000000000802000        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ .data          0x0000000000802000        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+ .data          0x0000000000802000        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+ .data          0x0000000000802000        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+ .data          0x0000000000802000        0x6 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+                0x0000000000802000                __malloc_heap_end
+                0x0000000000802002                __malloc_heap_start
+                0x0000000000802004                __malloc_margin
+ .data          0x0000000000802006        0x4 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(rand.o)
+ .data          0x000000000080200a        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(memcpy.o)
+ .data          0x000000000080200a        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(memset.o)
+ .data          0x000000000080200a        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+ .data          0x000000000080200a        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+ .data          0x000000000080200a        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+ .data          0x000000000080200a        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+ .data          0x000000000080200a        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+ .data          0x000000000080200a        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ .rodata        0x000000000080200a      0x190 objdir-CWLITEXMEGA/simpleserial-base.o
+                0x000000000080200a                TBL_SBOX
+                0x000000000080210a                TBL_FIX_PARAMS
+                0x000000000080218a                TBL_SYS_PARAMS
+ .rodata        0x000000000080219a       0x10 objdir-CWLITEXMEGA/simpleserial.o
+ *(.rodata*)
+ *(.gnu.linkonce.r*)
+                0x00000000008021aa                . = ALIGN (0x2)
+                0x00000000008021aa                _edata = .
+                0x00000000008021aa                PROVIDE (__data_end = .)
+
+.bss            0x00000000008021aa       0x76
+                0x00000000008021aa                PROVIDE (__bss_start = .)
+ *(.bss)
+ .bss           0x00000000008021aa        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+ .bss           0x00000000008021aa       0x10 objdir-CWLITEXMEGA/simpleserial-base.o
+                0x00000000008021aa                key
+ .bss           0x00000000008021ba       0x62 objdir-CWLITEXMEGA/simpleserial.o
+ .bss           0x000000000080221c        0x0 objdir-CWLITEXMEGA/XMEGA_AES_driver.o
+ .bss           0x000000000080221c        0x0 objdir-CWLITEXMEGA/uart.o
+ .bss           0x000000000080221c        0x0 objdir-CWLITEXMEGA/usart_driver.o
+ .bss           0x000000000080221c        0x0 objdir-CWLITEXMEGA/xmega_hal.o
+ .bss           0x000000000080221c        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+ .bss           0x000000000080221c        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ .bss           0x000000000080221c        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+ .bss           0x000000000080221c        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+ .bss           0x000000000080221c        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+ .bss           0x000000000080221c        0x4 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+                0x000000000080221c                __flp
+                0x000000000080221e                __brkval
+ .bss           0x0000000000802220        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(rand.o)
+ .bss           0x0000000000802220        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(memcpy.o)
+ .bss           0x0000000000802220        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(memset.o)
+ .bss           0x0000000000802220        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+ .bss           0x0000000000802220        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+ .bss           0x0000000000802220        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+ .bss           0x0000000000802220        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+ .bss           0x0000000000802220        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000802220        0x0 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+ *(.bss*)
+ *(COMMON)
+                0x0000000000802220                PROVIDE (__bss_end = .)
+                0x0000000000001466                __data_load_start = LOADADDR (.data)
+                0x0000000000001610                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000802220        0x0
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit .noinit.* .gnu.linkonce.n.*)
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x0000000000802220                _end = .
+                0x0000000000802220                PROVIDE (__heap_start = .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x12
+ *(.comment)
+ .comment       0x0000000000000000       0x12 objdir-CWLITEXMEGA/simpleserial-base.o
+                                         0x13 (size before relaxing)
+ .comment       0x0000000000000012       0x13 objdir-CWLITEXMEGA/simpleserial.o
+ .comment       0x0000000000000012       0x13 objdir-CWLITEXMEGA/XMEGA_AES_driver.o
+ .comment       0x0000000000000012       0x13 objdir-CWLITEXMEGA/uart.o
+ .comment       0x0000000000000012       0x13 objdir-CWLITEXMEGA/usart_driver.o
+ .comment       0x0000000000000012       0x13 objdir-CWLITEXMEGA/xmega_hal.o
+ .comment       0x0000000000000012       0x13 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+ .comment       0x0000000000000012       0x13 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(rand.o)
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x208
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 objdir-CWLITEXMEGA/simpleserial-base.o
+ .debug_aranges
+                0x0000000000000028       0x20 objdir-CWLITEXMEGA/simpleserial.o
+ .debug_aranges
+                0x0000000000000048       0x20 objdir-CWLITEXMEGA/uart.o
+ .debug_aranges
+                0x0000000000000068       0x20 objdir-CWLITEXMEGA/usart_driver.o
+ .debug_aranges
+                0x0000000000000088       0x20 objdir-CWLITEXMEGA/xmega_hal.o
+ .debug_aranges
+                0x00000000000000a8       0x20 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x0000000000000108       0x20 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+ .debug_aranges
+                0x0000000000000128       0x20 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+ .debug_aranges
+                0x0000000000000148       0x20 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+ .debug_aranges
+                0x0000000000000168       0x20 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+ .debug_aranges
+                0x0000000000000188       0x20 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+ .debug_aranges
+                0x00000000000001a8       0x20 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+ .debug_aranges
+                0x00000000000001c8       0x20 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+ .debug_aranges
+                0x00000000000001e8       0x20 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x44ac
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x2168 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+ .debug_info    0x0000000000002168      0xde4 objdir-CWLITEXMEGA/simpleserial-base.o
+ .debug_info    0x0000000000002f4c      0x7ee objdir-CWLITEXMEGA/simpleserial.o
+ .debug_info    0x000000000000373a      0x3d9 objdir-CWLITEXMEGA/uart.o
+ .debug_info    0x0000000000003b13      0x642 objdir-CWLITEXMEGA/usart_driver.o
+ .debug_info    0x0000000000004155      0x1cb objdir-CWLITEXMEGA/xmega_hal.o
+ .debug_info    0x0000000000004320       0x24 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+ .debug_info    0x0000000000004344       0x24 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ .debug_info    0x0000000000004368       0x24 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+ .debug_info    0x000000000000438c       0x24 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+ .debug_info    0x00000000000043b0       0x24 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+ .debug_info    0x00000000000043d4       0x24 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+ .debug_info    0x00000000000043f8       0x24 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+ .debug_info    0x000000000000441c       0x24 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+ .debug_info    0x0000000000004440       0x24 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+ .debug_info    0x0000000000004464       0x24 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+ .debug_info    0x0000000000004488       0x24 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+
+.debug_abbrev   0x0000000000000000     0x2aae
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000     0x1fa2 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+ .debug_abbrev  0x0000000000001fa2      0x313 objdir-CWLITEXMEGA/simpleserial-base.o
+ .debug_abbrev  0x00000000000022b5      0x2ac objdir-CWLITEXMEGA/simpleserial.o
+ .debug_abbrev  0x0000000000002561      0x152 objdir-CWLITEXMEGA/uart.o
+ .debug_abbrev  0x00000000000026b3      0x254 objdir-CWLITEXMEGA/usart_driver.o
+ .debug_abbrev  0x0000000000002907       0xcb objdir-CWLITEXMEGA/xmega_hal.o
+ .debug_abbrev  0x00000000000029d2       0x14 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+ .debug_abbrev  0x00000000000029e6       0x14 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ .debug_abbrev  0x00000000000029fa       0x14 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+ .debug_abbrev  0x0000000000002a0e       0x14 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+ .debug_abbrev  0x0000000000002a22       0x14 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+ .debug_abbrev  0x0000000000002a36       0x14 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+ .debug_abbrev  0x0000000000002a4a       0x14 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+ .debug_abbrev  0x0000000000002a5e       0x14 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+ .debug_abbrev  0x0000000000002a72       0x14 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+ .debug_abbrev  0x0000000000002a86       0x14 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+ .debug_abbrev  0x0000000000002a9a       0x14 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+
+.debug_line     0x0000000000000000     0x2466
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1d h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+ .debug_line    0x000000000000001d      0xa94 objdir-CWLITEXMEGA/simpleserial-base.o
+ .debug_line    0x0000000000000ab1      0x931 objdir-CWLITEXMEGA/simpleserial.o
+ .debug_line    0x00000000000013e2        0x0 objdir-CWLITEXMEGA/XMEGA_AES_driver.o
+ .debug_line    0x00000000000013e2      0x245 objdir-CWLITEXMEGA/uart.o
+ .debug_line    0x0000000000001627      0x65e objdir-CWLITEXMEGA/usart_driver.o
+ .debug_line    0x0000000000001c85      0x16c objdir-CWLITEXMEGA/xmega_hal.o
+ .debug_line    0x0000000000001df1       0xb7 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+ .debug_line    0x0000000000001ea8       0x51 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ .debug_line    0x0000000000001ef9       0x93 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+ .debug_line    0x0000000000001f8c       0x75 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+ .debug_line    0x0000000000002001       0xbd h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+ .debug_line    0x00000000000020be       0xbd h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+ .debug_line    0x000000000000217b       0x51 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+ .debug_line    0x00000000000021cc       0x81 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+ .debug_line    0x000000000000224d       0x69 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+ .debug_line    0x00000000000022b6      0x111 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+ .debug_line    0x00000000000023c7       0x9f h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+
+.debug_frame    0x0000000000000000      0x474
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x1f0 objdir-CWLITEXMEGA/simpleserial-base.o
+ .debug_frame   0x00000000000001f0      0x12c objdir-CWLITEXMEGA/simpleserial.o
+ .debug_frame   0x000000000000031c       0x64 objdir-CWLITEXMEGA/uart.o
+ .debug_frame   0x0000000000000380       0xd0 objdir-CWLITEXMEGA/usart_driver.o
+ .debug_frame   0x0000000000000450       0x24 objdir-CWLITEXMEGA/xmega_hal.o
+
+.debug_str      0x0000000000000000     0x20a2
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x1644 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+ .debug_str     0x0000000000001644      0x442 objdir-CWLITEXMEGA/simpleserial-base.o
+                                        0x499 (size before relaxing)
+ .debug_str     0x0000000000001a86       0xea objdir-CWLITEXMEGA/simpleserial.o
+                                        0x2df (size before relaxing)
+ .debug_str     0x0000000000001b70       0x22 objdir-CWLITEXMEGA/XMEGA_AES_driver.o
+                                        0x138 (size before relaxing)
+ .debug_str     0x0000000000001b92      0x157 objdir-CWLITEXMEGA/uart.o
+                                        0x3f2 (size before relaxing)
+ .debug_str     0x0000000000001ce9      0x25d objdir-CWLITEXMEGA/usart_driver.o
+                                        0x48e (size before relaxing)
+ .debug_str     0x0000000000001f46      0x114 objdir-CWLITEXMEGA/xmega_hal.o
+                                        0x2c4 (size before relaxing)
+ .debug_str     0x000000000000205a       0x48 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+ .debug_str     0x00000000000020a2       0x48 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ .debug_str     0x00000000000020a2       0x48 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+ .debug_str     0x00000000000020a2       0x48 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+ .debug_str     0x00000000000020a2       0x48 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+ .debug_str     0x00000000000020a2       0x48 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+ .debug_str     0x00000000000020a2       0x48 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+ .debug_str     0x00000000000020a2       0x48 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+ .debug_str     0x00000000000020a2       0x48 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+ .debug_str     0x00000000000020a2       0x48 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+ .debug_str     0x00000000000020a2       0x48 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+
+.debug_loc      0x0000000000000000     0x1869
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0xbad objdir-CWLITEXMEGA/simpleserial-base.o
+ .debug_loc     0x0000000000000bad      0x765 objdir-CWLITEXMEGA/simpleserial.o
+ .debug_loc     0x0000000000001312       0xd5 objdir-CWLITEXMEGA/uart.o
+ .debug_loc     0x00000000000013e7      0x482 objdir-CWLITEXMEGA/usart_driver.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x150
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0xc0 objdir-CWLITEXMEGA/simpleserial-base.o
+ .debug_ranges  0x00000000000000c0       0x78 objdir-CWLITEXMEGA/simpleserial.o
+ .debug_ranges  0x0000000000000138       0x18 objdir-CWLITEXMEGA/usart_driver.o
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x0000000000000000       0x2a
+ *(.debug_line_str)
+ .debug_line_str
+                0x0000000000000000       0x2a h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+                                         0x54 (size before relaxing)
+ .debug_line_str
+                0x000000000000002a       0x54 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+ .debug_line_str
+                0x000000000000002a       0x54 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+ .debug_line_str
+                0x000000000000002a       0x54 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+ .debug_line_str
+                0x000000000000002a       0x54 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+ .debug_line_str
+                0x000000000000002a       0x54 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+ .debug_line_str
+                0x000000000000002a       0x54 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+ .debug_line_str
+                0x000000000000002a       0x54 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+ .debug_line_str
+                0x000000000000002a       0x54 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+ .debug_line_str
+                0x000000000000002a       0x54 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+ .debug_line_str
+                0x000000000000002a       0x54 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+OUTPUT(simpleserial-base-CWLITEXMEGA.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+TBL_FIX_PARAMS                                    objdir-CWLITEXMEGA/simpleserial-base.o
+TBL_SBOX                                          objdir-CWLITEXMEGA/simpleserial-base.o
+TBL_SYS_PARAMS                                    objdir-CWLITEXMEGA/simpleserial-base.o
+USART_DataRegEmpty                                objdir-CWLITEXMEGA/usart_driver.o
+USART_InterruptDriver_DreInterruptLevel_Set       objdir-CWLITEXMEGA/usart_driver.o
+USART_InterruptDriver_Initialize                  objdir-CWLITEXMEGA/usart_driver.o
+USART_NineBits_GetChar                            objdir-CWLITEXMEGA/usart_driver.o
+USART_NineBits_PutChar                            objdir-CWLITEXMEGA/usart_driver.o
+USART_RXBufferData_Available                      objdir-CWLITEXMEGA/usart_driver.o
+USART_RXBuffer_GetByte                            objdir-CWLITEXMEGA/usart_driver.o
+USART_RXComplete                                  objdir-CWLITEXMEGA/usart_driver.o
+USART_TXBuffer_FreeSpace                          objdir-CWLITEXMEGA/usart_driver.o
+USART_TXBuffer_PutByte                            objdir-CWLITEXMEGA/usart_driver.o
+__FUSE_REGION_LENGTH__                            h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__bad_interrupt                                   h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__brkval                                          h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+__bss_end                                         h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+__bss_start                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+__data_end                                        h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+__data_load_start                                 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+__data_start                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+__divmodhi4                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+                                                  objdir-CWLITEXMEGA/simpleserial-base.o
+__divmodsi4                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+                                                  h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(rand.o)
+__do_clear_bss                                    h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_clear_bss.o)
+                                                  h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+                                                  objdir-CWLITEXMEGA/simpleserial.o
+                                                  objdir-CWLITEXMEGA/simpleserial-base.o
+__do_copy_data                                    h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_copy_data.o)
+                                                  h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(rand.o)
+                                                  h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+                                                  objdir-CWLITEXMEGA/simpleserial.o
+                                                  objdir-CWLITEXMEGA/simpleserial-base.o
+__flp                                             h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+__heap_end                                        h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+                                                  h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+__heap_start                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+__init                                            h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__malloc_heap_end                                 h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+__malloc_heap_start                               h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+__malloc_margin                                   h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+__mulohisi3                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+                                                  h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(rand.o)
+__mulshisi3                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+__muluhisi3                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+                                                  h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_mulshisi3.o)
+                                                  h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(rand.o)
+__negsi2                                          h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_negsi2.o)
+                                                  h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+__stack                                           h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__udivmodhi4                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodhi4.o)
+                                                  h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+__udivmodsi4                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_udivmodsi4.o)
+                                                  h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodsi4.o)
+__umulhisi3                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_umulhisi3.o)
+                                                  h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_muluhisi3.o)
+__vector_1                                        h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_10                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_100                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_101                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_102                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_103                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_104                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_105                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_106                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_107                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_108                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_109                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_11                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_110                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_111                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_112                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_113                                      h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_12                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_13                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_14                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_15                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_16                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_17                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_18                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_19                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_2                                        h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_20                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_21                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_22                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_23                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_24                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_25                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_26                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_27                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_28                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_29                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_3                                        h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_30                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_31                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_32                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_33                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_34                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_35                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_36                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_37                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_38                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_39                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_4                                        h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_40                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_41                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_42                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_43                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_44                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_45                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_46                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_47                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_48                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_49                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_5                                        h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_50                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_51                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_52                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_53                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_54                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_55                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_56                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_57                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_58                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_59                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_6                                        h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_60                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_61                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_62                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_63                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_64                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_65                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_66                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_67                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_68                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_69                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_7                                        h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_70                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_71                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_72                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_73                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_74                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_75                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_76                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_77                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_78                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_79                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_8                                        h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_80                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_81                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_82                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_83                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_84                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_85                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_86                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_87                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_88                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_89                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_9                                        h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_90                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_91                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_92                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_93                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_94                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_95                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_96                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_97                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_98                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_99                                       h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vector_default                                  h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+__vectors                                         h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+_div                                              h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_divmodhi4.o)
+_exit                                             h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+byte2word                                         objdir-CWLITEXMEGA/simpleserial-base.o
+check_version                                     objdir-CWLITEXMEGA/simpleserial.o
+encode_fun                                        objdir-CWLITEXMEGA/simpleserial-base.o
+exit                                              h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/avrxmega6\libgcc.a(_exit.o)
+                                                  h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+free                                              h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+                                                  objdir-CWLITEXMEGA/simpleserial-base.o
+func_data                                         objdir-CWLITEXMEGA/simpleserial-base.o
+func_key                                          objdir-CWLITEXMEGA/simpleserial-base.o
+get_key                                           objdir-CWLITEXMEGA/simpleserial-base.o
+get_pt                                            objdir-CWLITEXMEGA/simpleserial-base.o
+hex_decode                                        objdir-CWLITEXMEGA/simpleserial.o
+init_uart0                                        objdir-CWLITEXMEGA/uart.o
+                                                  objdir-CWLITEXMEGA/simpleserial-base.o
+input_ch_0                                        objdir-CWLITEXMEGA/uart.o
+                                                  objdir-CWLITEXMEGA/simpleserial.o
+input_ch_w_timeout_0                              objdir-CWLITEXMEGA/uart.o
+key                                               objdir-CWLITEXMEGA/simpleserial-base.o
+main                                              objdir-CWLITEXMEGA/simpleserial-base.o
+                                                  h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6/crtatxmega128d3.o
+malloc                                            h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(malloc.o)
+                                                  objdir-CWLITEXMEGA/simpleserial-base.o
+masked_sbox                                       objdir-CWLITEXMEGA/simpleserial-base.o
+memcpy                                            h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(memcpy.o)
+                                                  objdir-CWLITEXMEGA/simpleserial-base.o
+memset                                            h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(memset.o)
+                                                  objdir-CWLITEXMEGA/simpleserial-base.o
+move                                              objdir-CWLITEXMEGA/simpleserial-base.o
+output_ch_0                                       objdir-CWLITEXMEGA/uart.o
+                                                  objdir-CWLITEXMEGA/simpleserial.o
+platform_init                                     objdir-CWLITEXMEGA/xmega_hal.o
+                                                  objdir-CWLITEXMEGA/simpleserial-base.o
+rand                                              h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(rand.o)
+                                                  objdir-CWLITEXMEGA/simpleserial-base.o
+rand_r                                            h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(rand.o)
+simpleserial_addcmd                               objdir-CWLITEXMEGA/simpleserial.o
+                                                  objdir-CWLITEXMEGA/simpleserial-base.o
+simpleserial_addcmd_flags                         objdir-CWLITEXMEGA/simpleserial.o
+simpleserial_get                                  objdir-CWLITEXMEGA/simpleserial.o
+                                                  objdir-CWLITEXMEGA/simpleserial-base.o
+simpleserial_init                                 objdir-CWLITEXMEGA/simpleserial.o
+                                                  objdir-CWLITEXMEGA/simpleserial-base.o
+simpleserial_put                                  objdir-CWLITEXMEGA/simpleserial.o
+                                                  objdir-CWLITEXMEGA/simpleserial-base.o
+srand                                             h:/chipwh~1/cw/home/portable/avrgcc/bin/../lib/gcc/avr/11.1.0/../../../../avr/lib/avrxmega6\libc.a(rand.o)
+                                                  objdir-CWLITEXMEGA/simpleserial-base.o
+ss_crc                                            objdir-CWLITEXMEGA/simpleserial.o
+ss_get_commands                                   objdir-CWLITEXMEGA/simpleserial.o
+ss_num_commands                                   objdir-CWLITEXMEGA/simpleserial.o
+word2byte                                         objdir-CWLITEXMEGA/simpleserial-base.o
